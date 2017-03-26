@@ -1,0 +1,71 @@
+body {
+	background:#298eea;
+}
+.logo {
+	display: block;
+	height: 35px;
+	margin-top:40px;
+	margin-bottom: 20px;
+}
+
+.center{
+margin-right: auto;
+margin-left: auto;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.form {
+	width: 320px;
+	padding:40px;
+	background-color: white;
+	height: auto;
+	border-radius: 12px;
+	margin-bottom: 30px;
+}
+
+
+input {
+	
+	display: block;
+	height: 21px;
+	margin: 15px 0px;
+	width: 286px;
+	border:2px solid #e7e7e7;
+	
+	padding: 15px;
+}
+
+button[type="submit"] {
+	
+	display: block;
+	height: 21px;
+	width: 100%;
+	margin: 15px 0px;
+	
+	border:2px solid #15CD72;
+	padding: 15px;
+	background-color: #15CD72;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	height: auto;
+	border-radius: 4px;
+}
+
+
+a {
+	
+
+}
+a:hover {
+	color: pink;
+	text-decoration: none;
+}
+
+.loginlink {
+	color: white;
+	font-size: 20px;
+}
