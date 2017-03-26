@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="description" content="Login or Sign Up to AnalogSea.">
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
@@ -9,7 +10,7 @@
 <div class="form center">
 
 <h1 class="center textcenter">Sign Up</h1>
-<form action="index_submit" method="post" accept-charset="utf-8">
+<form action="/signup/" method="post" accept-charset="utf-8">
 
 <label for="email">Email</label>
 <input type="email" name="email" value="" placeholder="foo@bar.com" required="">
@@ -19,8 +20,8 @@
 <label for="passwords">Password</label>
 <input type="password" name="passwords" value="" placeholder="1234passw0rd" required>
 
-<button type="submit">Sign up</button>
-<a href="" ><p class="textcenter">Forgot Your Password?</p></a>
+<button  class="button">Sign up</button>
+<a href="/forgot-password/new" ><p class="textcenter">Forgot Your Password?</p></a>
 </form>
 
 
@@ -28,7 +29,7 @@
 
 
 <div class="center textcenter loginlink">
-	Already have an account? <a href="" >Log in</a>
+	Already have an account? <a href="/login" >Log in</a>
 </div>
 
 </body>

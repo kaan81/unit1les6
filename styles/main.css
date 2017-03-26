@@ -38,16 +38,14 @@ input {
 	padding: 15px;
 }
 
-button[type="submit"] {
-	
+.button {
 	display: block;
 	height: 21px;
 	width: 100%;
 	margin: 15px 0px;
-	
-	border:2px solid #15CD72;
+	border:2px solid #4CAF50;
 	padding: 15px;
-	background-color: #15CD72;
+	background-color: #4CAF50;;
 	color: white;
 	font-size: 16px;
 	text-align: center;
@@ -55,11 +53,14 @@ button[type="submit"] {
 	border-radius: 4px;
 }
 
+.button:hover {
+    background-color: #3e8e41;
+}
 
 a {
 	
+	}
 
-}
 a:hover {
 	color: pink;
 	text-decoration: none;
@@ -69,3 +70,6 @@ a:hover {
 	color: white;
 	font-size: 20px;
 }
+
+
+
